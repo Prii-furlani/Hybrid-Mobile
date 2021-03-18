@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#e6e6fa"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Calculadora FIAP"
+        android:layout_marginBottom="16dp"
+        android:textSize="17dp"
+        android:textColor="#FF0000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Informe o primeiro número interiro:"/>
+
+    <EditText
+        android:hint="Ex: 10"
+        android:id="@+id/edtNumero01"
+        android:textColor="#000"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Informe o segundo número interiro:"/>
+
+    <EditText
+        android:hint="Ex: 20"
+        android:id="@+id/edtNumero02"
+        android:textColor="#000"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="somar"
+        android:text="Somar"/>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="17dp"
+        android:text="A soma atual é : 0"/>
+
+
+</LinearLayout>
