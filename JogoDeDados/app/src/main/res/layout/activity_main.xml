@@ -41,7 +41,6 @@
         android:src="@drawable/d01"/>
 
     <Button
-        style="-"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="Jogar"
