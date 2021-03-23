@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#e6e6fa"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imgPessoa"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/iconfinder_supportfemale_403018"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="trocarImagem"
+        android:id="@+id/btnPessoa01"
+        android:text="Pessoa 01" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="trocarImagem"
+        android:id="@+id/btnPessoa02"
+        android:text="Pessoa 02"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="trocarImagem"
+        android:id="@+id/btnPessoa03"
+        android:text="Pessoa 03"/>
+
+</LinearLayout>
